@@ -1,6 +1,7 @@
 .text-primary {
     color: #FD6E0A;
 }
+
 body {
     font-family: 'Lato', 'Open Sans', sans-serif;
 
@@ -10,13 +11,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px ;
+    margin: 0 200px;
 
 }
 
 .nav-title {
     color: #181818;
-    font-size: 45px; /* Adjusted to a more reasonable size */
+    font-size: 45px;
+    /* Adjusted to a more reasonable size */
     font-weight: 800;
 }
 
@@ -24,34 +26,36 @@ nav {
     color: #FD6E0A;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-.section-title{
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
 
 }
-nav  a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
@@ -62,36 +66,37 @@ nav  a{
 }
 
 /* header related style */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
-.banner.profile-pic{
+
+.banner.profile-pic {
     width: 500px;
 
 }
 
-.banner-greeting{
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
@@ -101,25 +106,61 @@ nav  a{
 
 
 /* Main section style start */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section{
+    margin: 130px;
+}
 /* about section style */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0 ;
+    margin: 130px 0;
 
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
- 
+
+
+/* skillls related style */
+
+.skils-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+   
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    padding: flex;
+    color: #757575 ;
+
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.resume-column-title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
